@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SahadatSays | Personal Protfolio Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/fontawesome-free-5.8.1-web/css/all.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="custom-nabvar">
+        <div class="container">
+            <a href="#" class="navbar-brand logo">
+                <img src="img/logo.JPG" alt="Logo" class="img-fluid rounded-circle logo-img" width="60">
+                <span class="ml-2 h3 text-light text-uppercase d-lg-inline d-none">Md Sahadat Hossain</span>
+            </a>
+            <button type="button" class="navbar-toggler nav-btn" data-toggle="collapse" data-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggle Navigation">
+                <div class="change line1"></div>
+                <div class="change line2"></div>
+                <div class="change line3"></div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">eduction & skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Nav -->
+
+    <!-- Header -->
+    <header mt-5>
+        <div class="text-box">
+            <h1 class="text-white text-capitalize"><span class="display-2 mr-2 primary-color">I'm</span> fullstack developer & freelancer.</h1>
+            <h3 class="text-white mb-5"> <span class="primary-color font-weight-bold">I Love to doing : </span> <span class="dev-type"></span></h3>
+            <button class="btn btn-outline-danger text-white text-uppercase custom-btn btn1 mb-4"><i class="fas fa-arrow-down mr-2"></i> read more</button>
+            <button class="btn btn-outline-danger text-white text-uppercase custom-btn btn2 mb-4"><i class="fa fa-download mr-2"></i> download cv</button>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <script src="vendor/jquery-3.4.0.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/typed.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+            var typed = new Typed('.dev-type', {
+                strings: ["Solve Problem", "Programming Training.", "Learn new Technologies."],
+                typeSpeed: 100,
+                smartBackspace: true,
+                fadeOut: false,
+                fadeOutClass: 'typed-fade-out',
+                fadeOutDelay: 500,
+                loop: true,
+                loopCount: Infinity,
+              });
+              
+    </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #1D1D1D;
+    backface-visibility: hidden;
+}
+.primary-color  {
+    color: #F74356;
+}
+.primary-bg  {
+    color: #F74356;
+}
+/* 
+
+    primary - #F74356; 
+    light - #BDBDBE
+    dark - #1D1D1D
+    black - #00000
+
+*/
+#custom-nabvar {
+    background: linear-gradient(120deg,
+    #F74356 0%,
+    #F74356 50%,
+    transparent 50%
+    ), #1D1D1D;
+    min-height: 90px;
+}
+/* Logo */
+.logo {
+    animation: moveToLeft 2s ease;
+    transition: all 0.7s;
+}
+
+.logo-img {
+    border: 2px solid #FFF;
+}
+.logo:hover {
+    transform: scale(1.05);
+    transform: translateX(10px);
+}
+
+
+/* end of logo */
+
+/* Nav */
+.line1, .line2, .line3 {
+    width: 45px;
+    margin: 6px;
+    border: 3px solid #fff;
+    transition: all 0.5s;
+}
+
+.change .line1 {
+    transform: rotate(-45deg) translate(-6px, 10px);
+}
+.change .line2 {
+    opacity: 0;
+}
+.change .line3 {
+    transform: rotate(45deg) translate(-6px, -10px);
+}
+
+#mynav ul li a {
+    text-transform: uppercase;
+    color: #FFF;
+    animation: moveToRight 2s;
+    animation-fill-mode: backwards;
+    transition: all 1s;
+}
+#mynav ul li a:hover{
+    color: #BDBDBE;
+    border-bottom: 1px solid #F74356;
+}
+/* end of Nav */
+/* Header */
+header {
+    width: 100;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../img/header-banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.custom-btn {
+    width: 200px;
+    font-size: 1em;
+    padding: 12px;
+    margin-right: 12px;
+    border-radius: 0;
+}
+.btn1 {
+    border: 1px solid #FFF;
+    transition: all 0.5s;
+}
+.btn2 {
+    border: 1px solid #F74356;
+    transition: all 0.5s;
+}
+.btn1:hover {
+    background: #F74356;
+    transform: scale(1.05);
+}
+.btn2:hover {
+    background: #1D1D1D;
+    border: none;
+    transform: scale(1.05);
+}
+
+/* End of Header */
+
+/* animations */
+
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveToRight {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+/* end of animations */
+
