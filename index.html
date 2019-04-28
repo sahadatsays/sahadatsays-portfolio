@@ -8,15 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900" rel="stylesheet">
     <link rel="stylesheet" href="vendor/fontawesome-free-5.8.1-web/css/all.min.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/circle-progressbar.css">
+    <link rel="stylesheet" href="vendor/animate.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="custom-nabvar">
+<body id="body">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-nav" id="custom-nabvar">
         <div class="container">
-            <a href="#" class="navbar-brand logo">
+            <a href="#body" class="navbar-brand logo">
                 <img src="img/logo.JPG" alt="Logo" class="img-fluid rounded-circle logo-img" width="60">
-                <span class="ml-2 h3 text-light text-uppercase d-lg-inline d-none">Md Sahadat Hossain</span>
+                <span class="ml-2 h5 text-light text-uppercase d-lg-inline d-none">Md Sahadat Hossain</span>
             </a>
             <button type="button" class="navbar-toggler nav-btn" data-toggle="collapse" data-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggle Navigation">
                 <div class="change line1"></div>
@@ -27,19 +29,19 @@
             <div class="collapse navbar-collapse" id="mynav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#body">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
+                            <a class="nav-link" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">eduction & skills</a>
+                            <a class="nav-link" href="#eduction-skills">eduction & skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">projects</a>
+                            <a class="nav-link" href="#projects">projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact </a>
+                            <a class="nav-link" href="#contact">contact </a>
                         </li>
                     </ul>
             </div>
@@ -48,16 +50,538 @@
     <!-- End of Nav -->
 
     <!-- Header -->
-    <header mt-5>
+    <header>
         <div class="text-box">
-            <h1 class="text-white text-capitalize"><span class="display-2 mr-2 primary-color">I'm</span> fullstack developer & freelancer.</h1>
-            <h3 class="text-white mb-5"> <span class="primary-color font-weight-bold">I Love to doing : </span> <span class="dev-type"></span></h3>
-            <button class="btn btn-outline-danger text-white text-uppercase custom-btn btn1 mb-4"><i class="fas fa-arrow-down mr-2"></i> read more</button>
-            <button class="btn btn-outline-danger text-white text-uppercase custom-btn btn2 mb-4"><i class="fa fa-download mr-2"></i> download cv</button>
+            <div class="box-content">
+                <h1 class="text-white text-capitalize mt-sm-4 animated fadeInRight"><span class="display-2 mr-2 primary-color">I'm</span> fullstack developer & freelancer.</h1>
+                <h3 class="text-white mb-5"> <span class="primary-color font-weight-bold">I Love to doing : </span> <span class="dev-type"></span></h3>
+                <a href="#about" class="btn btn-outline-danger text-white text-uppercase custom-btn btn1 mb-4"><i class="fas fa-arrow-down mr-2"></i> read more</a>
+                <a class="btn btn-outline-danger text-white text-uppercase custom-btn btn2 mb-4"><i class="fa fa-download mr-2"></i> download cv</a>
+            </div>
         </div>
     </header>
     <!-- End of Header -->
 
+    <!-- About -->
+    <section class="about section-default" id="about">
+        <!-- title  -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center mb-5">
+                    <h1 class="section-title pt-3 mb-1">About Me</h1>
+                    <div class="divi"></div>
+                </div>
+            </div>
+        </div>
+        <!-- end of title  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-4 mx-sm-auto">
+                    <img src="img/logo.JPG" alt="image" class="img-fluid about-img">
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-muted">
+                                I'm <span class="primary-color">Md Sahadat</span>. I completed B Sc in CSE from Northern University Banglades.<br>
+                                Last 4+ years I worked on various technology. I love to Programming. My Hobby is learn new programming language.
+                                <br>
+                                Skilled in teamwork, leadership, creative thinking, Adept at data structures, problem solving, end-to-end coding. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-4 mx-sm-auto">
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li class="list-item d-flex pb-3">
+                                        <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-envelope fa-2x"></i></span>
+                                        <span class="contact-text pb-2"><a href="mailto:sahadatsays@gmail.com">sahadatsays@gmail.com</a></span>
+                                    </li>
+                                    <li class="list-item d-flex pb-3">
+                                        <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-link fa-2x"></i></span>
+                                        <span class="contact-text pb-2"><a href="http://sahadatsays.com/">http://sahadatsays.com/</a></span>
+                                    </li>
+                                    <li class="list-item d-flex pb-3">
+                                        <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-mobile fa-2x"></i></span>
+                                        <span class="contact-text">+880 186666 3092</span>
+                                    </li>
+                                    <li class="list-item d-flex pb-3">
+                                        <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-home fa-2x"></i></span>
+                                        <span class="contact-text"> Nikunjo-2, Dhaka</span>
+                                    </li>
+                                    <li class="list-item d-flex pb-3">
+                                        <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-globe-asia fa-2x"></i></span>
+                                        <span class="contact-text"> Bangladesh</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4">
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li class="list-item">
+                                        <a href="" class="d-flex p-1 social-link fb-color">
+                                            <i class="fab fa-facebook fa-2x mr-3"></i>
+                                           <span class="lead">Facebook </span>
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="" class="d-flex p-1 social-link twitter-color">
+                                            <i class="fab fa-twitter fa-2x mr-3"></i>
+                                           <span class="lead">Twiiter </span>
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="" class="d-flex p-1 social-link linkdin-color">
+                                            <i class="fab fa-linkedin fa-2x mr-3"></i>
+                                            <span class="lead">Linkedin </span>
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="" class="d-flex p-1 social-link youtube-color">
+                                            <i class="fab fa-youtube fa-2x mr-3"></i>
+                                            <span class="lead">YouTube </span>
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="" class="d-flex p-1 social-link github-color">
+                                            <i class="fab fa-github fa-2x mr-3"></i>
+                                            <span class="lead">Github </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About -->
+    
+    <!-- Eduction & sills -->
+    <section class="eduction-skills bg-dark pb-5" id="eduction-skills">
+            <!-- title  -->
+            <div class="container-fluid">
+                <div class="row pt-5">
+                    <div class="col text-center mb-5">
+                        <h1 class="section-title text-light pt-3 mb-1">eduction & skills </h1>
+                        <div class="divi"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Title -->
+            <div class="container">
+                <div class="row text-light justify-content-center">
+                    <div class="col-lg-5">
+                        <div>
+                            <ul class="list-unstyled">
+                                <li class="list-item d-flex py-2 edu-item">
+                                    <div class="edu-icon mr-3 pt-1">
+                                        <i class="fas fa-graduation-cap fa-2x primary-bg text-white p-1 rounded"></i>
+                                    </div>
+                                    <div class="edu-content">
+                                        <h5 class="">Bachelor of Computer Science </h5>
+                                        <p class="small font-italic">Northern University Bangladesh - 2018</p>
+                                    </div>
+                                </li>
+                                <li class="list-item d-flex py-2 edu-item">
+                                    <div class="edu-icon mr-3 pt-1">
+                                        <i class="fas fa-university fa-2x primary-bg text-white p-1 rounded"></i>
+                                    </div>
+                                    <div class="edu-content">
+                                        <h5 class="">Diploma In Computer Technology </h5>
+                                        <p class="small font-italic">Noakhali Ideal Polytechnical Institute - 2014</p>
+                                    </div>
+                                </li>
+                                <li class="list-item d-flex py-2 edu-item">
+                                    <div class="edu-icon mr-3 pt-1">
+                                        <i class="fas fa-university fa-2x primary-bg text-white p-1 rounded"></i>
+                                    </div>
+                                    <div class="edu-content">
+                                        <h5 class="">Higher Secondary School Certificate</h5>
+                                        <p class="small font-italic">Noakhali govt. Collage - 2011</p>
+                                    </div>
+                                </li>
+                                <li class="list-item d-flex py-2 edu-item">
+                                    <div class="edu-icon mr-3 pt-1">
+                                        <i class="fas fa-university fa-2x primary-bg text-white p-1 rounded"></i>
+                                    </div>
+                                    <div class="edu-content">
+                                        <h5 class="">Secondary School Certificate</h5>
+                                        <p class="small font-italic">Maijdee Technical School & Collage - 2009</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col mb-4 text-center">
+                                <h3 class="border-bottom py-2 text-uppercase">Working on ... </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="cprogress pink">
+                                    <span class="cprogress-left">
+                                        <span class="cprogress-bar"></span>
+                                    </span>
+                                    <span class="cprogress-right">
+                                        <span class="cprogress-bar"></span>
+                                    </span>
+                                    <div class="cprogress-value">Mobile</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="cprogress yellow">
+                                    <span class="cprogress-left">
+                                        <span class="cprogress-bar"></span>
+                                    </span>
+                                    <span class="cprogress-right">
+                                        <span class="cprogress-bar"></span>
+                                    </span>
+                                    <div class="cprogress-value">Web</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="cprogress green">
+                                    <span class="cprogress-left">
+                                        <span class="cprogress-bar"></span>
+                                    </span>
+                                    <span class="cprogress-right">
+                                        <span class="cprogress-bar"></span>
+                                    </span>
+                                    <div class="cprogress-value">Others</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">html5 & css3</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-success" role="progressbar" style="width: 85%; height:25px" aria-valuemax="100">
+                                        85%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">php</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-warning" role="progressbar" style="width: 65%; height:25px" aria-valuemax="100">
+                                        65%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">mysql</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-danger" role="progressbar" style="width: 55%; height:25px" aria-valuemax="100">
+                                        55%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">javascript</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-dark" role="progressbar" style="width: 45%; height:25px" aria-valuemax="100">
+                                        45%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">python</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-secondary" role="progressbar" style="width: 30%; height:25px" aria-valuemax="100">
+                                        30%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">mongodb / firebase</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped active bg-primary" role="progressbar" style="width: 55%; height:25px" aria-valuemax="100">
+                                        55%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">swift code / objective c</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-info" role="progressbar" style="width: 35%; height:25px" aria-valuemax="100">
+                                        35%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">c / c++</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-danger" role="progressbar" style="width: 40%; height:25px" aria-valuemax="100">
+                                        40%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">java / kotlin</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-dark" role="progressbar" style="width: 25%; height:25px" aria-valuemax="100">
+                                        25%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">angular / vue</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-warning" role="progressbar" style="width: 30%; height:25px" aria-valuemax="100">
+                                        30%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">Codeigniter / laravel</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-danger" role="progressbar" style="width: 75%; height:25px" aria-valuemax="100">
+                                        75%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill mb-3">
+                                <h5 class="text-uppercase">flask / django</h5>
+                                <div class="progress" style="height:25px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated  bg-prmary" role="progressbar" style="width: 35%; height:25px" aria-valuemax="100">
+                                        35%
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of title -->
+    </section>
+    <!-- End of Eduction & sills -->
+
+    <!-- Projects -->
+    <section class="projects mb-5" id="projects">
+        <!-- title  -->
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col text-center mb-5">
+                    <h1 class="section-title text-dark pt-3 mb-1">projects </h1>
+                    <div class="divi"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="project-nav">
+                        <ul class="list-inline">
+                            <li class="list-inline-item p-item p-active" data-filter="all">
+                                <span class="mx-2">All</span> |
+                            </li>
+                            <li class="list-inline-item p-item" data-filter="web-design">
+                                <span class="mx-2">Web Design </span> |
+                            </li>
+                            <li class="list-inline-item p-item" data-filter="web-development">
+                                <span class="mx-2">Web Development </span> |
+                            </li>
+                            <li class="list-inline-item p-item" data-filter="mobile-app">
+                                <span class="mx-2">Mobile App </span>|
+                            </li>
+                            <li class="list-inline-item p-item" data-filter="other">
+                                <span class="mx-2">Other </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-3">
+                <div class="col-lg-4 py-3 filter web-design">
+                    <div class="card project">
+                        <div class="card-header">
+                                <img src="img/projects/p-1.png" alt="project 1" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="project-link">
+                                <p class="lead">Hospital Management By Laravel</p>
+                            </a>
+                            <hr>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt ea mollitia accusantium tempore placeat doloremque provident officia hic consectetur?</p>
+                        </div>
+                        <a href="#" class="btn btn-outline-danger btn-block project-btn"><i class="fas fa-link mr-2"></i> Visit</a>
+                        <a href="#" class="btn btn-outline-info btn-block project-btn"><i class="fab fa-github mr-2"></i> Source Code</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-3 filter web-design">
+                        <div class="card project">
+                        <div class="card-header">
+                                <img src="img/projects/p-2.png" alt="project 1" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="project-link">
+                                <p class="lead">Hospital Management By Laravel</p>
+                            </a>
+                            <hr>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt ea mollitia accusantium tempore placeat doloremque provident officia hic consectetur?</p>
+                        </div>
+                        <a href="#" class="btn btn-outline-danger btn-block project-btn"><i class="fas fa-link mr-2"></i> Visit</a>
+                        <a href="#" class="btn btn-outline-info btn-block project-btn"><i class="fab fa-github mr-2"></i> Source Code</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-3 filter web-development">
+                    <div class="card project">
+                        <div class="card-header">
+                                <img src="img/projects/p-3.png" alt="project 1" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="project-link">
+                                <p class="lead">Hospital Management By Laravel</p>
+                            </a>
+                            <hr>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt ea mollitia accusantium tempore placeat doloremque provident officia hic consectetur?</p>
+                        </div>
+                        <a href="#" class="btn btn-outline-danger btn-block project-btn"><i class="fas fa-link mr-2"></i> Visit</a>
+                        <a href="#" class="btn btn-outline-info btn-block project-btn"><i class="fab fa-github mr-2"></i> Source Code</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 py-3 filter web-development">
+                        <div class="card project">
+                            <div class="card-header">
+                                    <img src="img/projects/p-1.png" alt="project 1" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="project-link">
+                                    <p class="lead">Hospital Management By Laravel</p>
+                                </a>
+                                <hr>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt ea mollitia accusantium tempore placeat doloremque provident officia hic consectetur?</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-danger btn-block project-btn"><i class="fas fa-link mr-2"></i> Visit</a>
+                            <a href="#" class="btn btn-outline-info btn-block project-btn"><i class="fab fa-github mr-2"></i> Source Code</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-3 filter mobile-app">
+                            <div class="card project">
+                            <div class="card-header">
+                                    <img src="img/projects/p-2.png" alt="project 1" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="project-link">
+                                    <p class="lead">Hospital Management By Laravel</p>
+                                </a>
+                                <hr>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt ea mollitia accusantium tempore placeat doloremque provident officia hic consectetur?</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-danger btn-block project-btn"><i class="fas fa-link mr-2"></i> Visit</a>
+                            <a href="#" class="btn btn-outline-info btn-block project-btn"><i class="fab fa-github mr-2"></i> Source Code</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-3 filter mobile-app">
+                        <div class="card project">
+                            <div class="card-header">
+                                    <img src="img/projects/p-3.png" alt="project 1" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="project-link">
+                                    <p class="lead">Hospital Management By Laravel</p>
+                                </a>
+                                <hr>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt ea mollitia accusantium tempore placeat doloremque provident officia hic consectetur?</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-danger btn-block project-btn"><i class="fas fa-link mr-2"></i> Visit</a>
+                            <a href="#" class="btn btn-outline-info btn-block project-btn"><i class="fab fa-github mr-2"></i> Source Code</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            <!-- End of Title -->
+    </section>
+    <!-- End of Projects -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <!-- title  -->
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col text-center mb-5">
+                    <h1 class="section-title text-light pt-3 mb-1">get in touch </h1>
+                    <div class="divi"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form action="#" class="c-form">
+                            <div class="form-group">
+                                <div class="row pb-4">
+                                    <div class="col-sm-6">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control contact-input" name="name" placeholder="Write Your Full Name ...">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control contact-input" name="email" placeholder="Enter Valid Email...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row pb-4">
+                                    <div class="col-sm-6">
+                                        <label for="subject">Subject </label>
+                                        <input type="text" class="form-control contact-input" name="subject" placeholder="Purpose of contact">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="contact-number">Contact Number</label>
+                                        <input type="email" class="form-control contact-input" name="contact-number" placeholder="Enter Contact Number...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row pb-1">
+                                    <div class="col-sm-12">
+                                        <label for="message">Message </label>
+                                        <textarea name="message" id="message" cols="20" rows="5" class="form-control contact-input" placeholder="Write Your Message ..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-info btn-block send-btn" type="submit">
+                                <i class="fa fa-envelope mr-2"></i>
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of title -->
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container py-4 primary-color">
+            <div class="row">
+               <div class="col text-center">
+                   <p class="lead primary-color">
+                       &copy; Copyright 2019. Designed By <a href="https//:sahadatsays.com">Md Sahadat</a>
+                   </p>
+               </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
     <script src="vendor/jquery-3.4.0.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/popper.min.js"></script>
