@@ -1,6 +1,6 @@
 # Portfolio Website
 
 
-<a herf="">Live Demo</a>
+![Live Demo](https://sahadatsays.github.io/sahadatsays-portfolio/)
 
-![alt text](http://url/to/img.png)
+![Template Screenshot](http://url/to/img.png)
