@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/circle-progressbar.css">
     <link rel="stylesheet" href="vendor/animate.css">
+    <link rel="stylesheet" href="vendor/scrolling-nav/css/scrolling-nav.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body id="body">
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-nav" id="custom-nabvar">
         <div class="container">
             <a href="#body" class="navbar-brand logo">
-                <img src="img/logo.JPG" alt="Logo" class="img-fluid rounded-circle logo-img" width="60">
+                <img src="img/logo.JPG" alt="Logo" class="img-fluid rounded-circle logo-img " width="60">
                 <span class="ml-2 h5 text-light text-uppercase d-lg-inline d-none">Md Sahadat Hossain</span>
             </a>
             <button type="button" class="navbar-toggler nav-btn" data-toggle="collapse" data-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggle Navigation">
@@ -55,8 +56,8 @@
             <div class="box-content">
                 <h1 class="text-white text-capitalize mt-sm-4 animated fadeInRight"><span class="display-2 mr-2 primary-color">I'm</span> fullstack developer & freelancer.</h1>
                 <h3 class="text-white mb-5"> <span class="primary-color font-weight-bold">I Love to doing : </span> <span class="dev-type"></span></h3>
-                <a href="#about" class="btn btn-outline-danger text-white text-uppercase custom-btn btn1 mb-4"><i class="fas fa-arrow-down mr-2"></i> read more</a>
-                <a class="btn btn-outline-danger text-white text-uppercase custom-btn btn2 mb-4"><i class="fa fa-download mr-2"></i> download cv</a>
+                <a href="#about" class="btn btn-outline-danger text-white text-uppercase custom-btn btn1 mb-4 wow bounceInUp slower"><i class="fas fa-arrow-down mr-2"></i> read more</a>
+                <a class="btn btn-outline-danger text-white text-uppercase custom-btn btn2 mb-4 wow bounceInUp slower"><i class="fa fa-download mr-2"></i> download cv</a>
             </div>
         </div>
     </header>
@@ -77,12 +78,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 mb-4 mx-sm-auto">
-                    <img src="img/logo.JPG" alt="image" class="img-fluid about-img">
+                    <img src="img/logo.JPG" alt="image" class="img-fluid about-img wow fadeInUpBig">
                 </div>
                 <div class="col-lg-7">
                     <div class="row">
                         <div class="col">
-                            <p class="text-muted">
+                            <p class="text-muted wow fadeInDown slow">
                                 I'm <span class="primary-color">Md Sahadat</span>. I completed B Sc in CSE from Northern University Banglades.<br>
                                 Last 4+ years I worked on various technology. I love to Programming. My Hobby is learn new programming language.
                                 <br>
@@ -94,23 +95,23 @@
                         <div class="col-lg-6 col-md-6 mb-4">
                             <div>
                                 <ul class="list-unstyled">
-                                    <li class="list-item d-flex pb-3">
+                                    <li class="list-item d-flex pb-3 wow fadeInLeft slow">
                                         <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-envelope fa-2x"></i></span>
                                         <span class="contact-text pb-2"><a href="mailto:sahadatsays@gmail.com">sahadatsays@gmail.com</a></span>
                                     </li>
-                                    <li class="list-item d-flex pb-3">
+                                    <li class="list-item d-flex pb-3 wow fadeInLeft slow">
                                         <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-link fa-2x"></i></span>
                                         <span class="contact-text pb-2"><a href="http://sahadatsays.com/">http://sahadatsays.com/</a></span>
                                     </li>
-                                    <li class="list-item d-flex pb-3">
+                                    <li class="list-item d-flex pb-3 wow fadeInLeft slow">
                                         <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-mobile fa-2x"></i></span>
                                         <span class="contact-text">+880 186666 3092</span>
                                     </li>
-                                    <li class="list-item d-flex pb-3">
+                                    <li class="list-item d-flex pb-3 wow fadeInLeft slow">
                                         <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-home fa-2x"></i></span>
                                         <span class="contact-text"> Nikunjo-2, Dhaka</span>
                                     </li>
-                                    <li class="list-item d-flex pb-3">
+                                    <li class="list-item d-flex pb-3 wow fadeInLeft slow">
                                         <span class="contact-icon text-center mr-2 primary-color"><i class="fas fa-globe-asia fa-2x"></i></span>
                                         <span class="contact-text"> Bangladesh</span>
                                     </li>
@@ -120,31 +121,31 @@
                         <div class="col-lg-6 col-md-6 mb-4">
                             <div>
                                 <ul class="list-unstyled">
-                                    <li class="list-item">
+                                    <li class="list-item wow fadeInRight slow">
                                         <a href="" class="d-flex p-1 social-link fb-color">
                                             <i class="fab fa-facebook fa-2x mr-3"></i>
                                            <span class="lead">Facebook </span>
                                         </a>
                                     </li>
-                                    <li class="list-item">
+                                    <li class="list-item wow fadeInRight slow">
                                         <a href="" class="d-flex p-1 social-link twitter-color">
                                             <i class="fab fa-twitter fa-2x mr-3"></i>
                                            <span class="lead">Twiiter </span>
                                         </a>
                                     </li>
-                                    <li class="list-item">
+                                    <li class="list-item wow fadeInRight slow">
                                         <a href="" class="d-flex p-1 social-link linkdin-color">
                                             <i class="fab fa-linkedin fa-2x mr-3"></i>
                                             <span class="lead">Linkedin </span>
                                         </a>
                                     </li>
-                                    <li class="list-item">
+                                    <li class="list-item wow fadeInRight slow">
                                         <a href="" class="d-flex p-1 social-link youtube-color">
                                             <i class="fab fa-youtube fa-2x mr-3"></i>
                                             <span class="lead">YouTube </span>
                                         </a>
                                     </li>
-                                    <li class="list-item">
+                                    <li class="list-item wow fadeInRight slow">
                                         <a href="" class="d-flex p-1 social-link github-color">
                                             <i class="fab fa-github fa-2x mr-3"></i>
                                             <span class="lead">Github </span>
@@ -177,7 +178,7 @@
                     <div class="col-lg-5">
                         <div>
                             <ul class="list-unstyled">
-                                <li class="list-item d-flex py-2 edu-item">
+                                <li class="list-item d-flex py-2 edu-item wow flipInX">
                                     <div class="edu-icon mr-3 pt-1">
                                         <i class="fas fa-graduation-cap fa-2x primary-bg text-white p-1 rounded"></i>
                                     </div>
@@ -186,7 +187,7 @@
                                         <p class="small font-italic">Northern University Bangladesh - 2018</p>
                                     </div>
                                 </li>
-                                <li class="list-item d-flex py-2 edu-item">
+                                <li class="list-item d-flex py-2 edu-item wow flipInX">
                                     <div class="edu-icon mr-3 pt-1">
                                         <i class="fas fa-university fa-2x primary-bg text-white p-1 rounded"></i>
                                     </div>
@@ -195,7 +196,7 @@
                                         <p class="small font-italic">Noakhali Ideal Polytechnical Institute - 2014</p>
                                     </div>
                                 </li>
-                                <li class="list-item d-flex py-2 edu-item">
+                                <li class="list-item d-flex py-2 edu-item wow flipInX">
                                     <div class="edu-icon mr-3 pt-1">
                                         <i class="fas fa-university fa-2x primary-bg text-white p-1 rounded"></i>
                                     </div>
@@ -204,7 +205,7 @@
                                         <p class="small font-italic">Noakhali govt. Collage - 2011</p>
                                     </div>
                                 </li>
-                                <li class="list-item d-flex py-2 edu-item">
+                                <li class="list-item d-flex py-2 edu-item wow flipInX">
                                     <div class="edu-icon mr-3 pt-1">
                                         <i class="fas fa-university fa-2x primary-bg text-white p-1 rounded"></i>
                                     </div>
@@ -223,7 +224,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
-                                <div class="cprogress pink">
+                                <div class="cprogress pink wow bounceInUp">
                                     <span class="cprogress-left">
                                         <span class="cprogress-bar"></span>
                                     </span>
@@ -234,7 +235,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <div class="cprogress yellow">
+                                <div class="cprogress yellow wow bounceInUp">
                                     <span class="cprogress-left">
                                         <span class="cprogress-bar"></span>
                                     </span>
@@ -247,7 +248,7 @@
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 col-sm-6">
-                                <div class="cprogress green">
+                                <div class="cprogress green wow bounceInDown slow">
                                     <span class="cprogress-left">
                                         <span class="cprogress-bar"></span>
                                     </span>
@@ -261,7 +262,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">html5 & css3</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-success" role="progressbar" style="width: 85%; height:25px" aria-valuemax="100">
@@ -269,7 +270,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">php</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-warning" role="progressbar" style="width: 65%; height:25px" aria-valuemax="100">
@@ -277,7 +278,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">mysql</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-danger" role="progressbar" style="width: 55%; height:25px" aria-valuemax="100">
@@ -285,7 +286,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">javascript</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-dark" role="progressbar" style="width: 45%; height:25px" aria-valuemax="100">
@@ -293,7 +294,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">python</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-secondary" role="progressbar" style="width: 30%; height:25px" aria-valuemax="100">
@@ -301,7 +302,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">mongodb / firebase</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped active bg-primary" role="progressbar" style="width: 55%; height:25px" aria-valuemax="100">
@@ -309,7 +310,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">swift code / objective c</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-info" role="progressbar" style="width: 35%; height:25px" aria-valuemax="100">
@@ -317,7 +318,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">c / c++</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-danger" role="progressbar" style="width: 40%; height:25px" aria-valuemax="100">
@@ -325,7 +326,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">java / kotlin</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-dark" role="progressbar" style="width: 25%; height:25px" aria-valuemax="100">
@@ -333,7 +334,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">angular / vue</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-warning" role="progressbar" style="width: 30%; height:25px" aria-valuemax="100">
@@ -341,7 +342,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">Codeigniter / laravel</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-danger" role="progressbar" style="width: 75%; height:25px" aria-valuemax="100">
@@ -349,7 +350,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skill mb-3">
+                            <div class="skill mb-3 wow jackInTheBox slow">
                                 <h5 class="text-uppercase">flask / django</h5>
                                 <div class="progress" style="height:25px">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated  bg-prmary" role="progressbar" style="width: 35%; height:25px" aria-valuemax="100">
@@ -406,7 +407,7 @@
 
             <div class="row py-3">
                 <div class="col-lg-4 py-3 filter web-design">
-                    <div class="card project">
+                    <div class="card project wow fadeInUp slower">
                         <div class="card-header">
                                 <img src="img/projects/p-1.png" alt="project 1" class="img-fluid">
                         </div>
@@ -422,7 +423,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 py-3 filter web-design">
-                        <div class="card project">
+                        <div class="card project wow fadeInUp slower">
                         <div class="card-header">
                                 <img src="img/projects/p-2.png" alt="project 1" class="img-fluid">
                         </div>
@@ -438,7 +439,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 py-3 filter web-development">
-                    <div class="card project">
+                    <div class="card project wow fadeInUp slower">
                         <div class="card-header">
                                 <img src="img/projects/p-3.png" alt="project 1" class="img-fluid">
                         </div>
@@ -455,7 +456,7 @@
                 </div>
 
                 <div class="col-lg-4 py-3 filter web-development">
-                        <div class="card project">
+                        <div class="card project wow fadeInUp slower">
                             <div class="card-header">
                                     <img src="img/projects/p-1.png" alt="project 1" class="img-fluid">
                             </div>
@@ -471,7 +472,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 py-3 filter mobile-app">
-                            <div class="card project">
+                            <div class="card project wow fadeInUp slower">
                             <div class="card-header">
                                     <img src="img/projects/p-2.png" alt="project 1" class="img-fluid">
                             </div>
@@ -487,7 +488,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 py-3 filter mobile-app">
-                        <div class="card project">
+                        <div class="card project wow fadeInUp slower">
                             <div class="card-header">
                                     <img src="img/projects/p-3.png" alt="project 1" class="img-fluid">
                             </div>
@@ -586,8 +587,12 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/popper.min.js"></script>
     <script src="vendor/typed.min.js"></script>
+    <script src="vendor/wow.js"></script>
+    <script src="vendor/jquery.easing.min.js"></script>
+    <script src="vendor/scrolling-nav/js/scrolling-nav.js"></script>
     <script src="js/main.js"></script>
     <script>
+        new WOW().init();
             var typed = new Typed('.dev-type', {
                 strings: ["Solve Problem", "Programming Training.", "Learn new Technologies."],
                 typeSpeed: 100,

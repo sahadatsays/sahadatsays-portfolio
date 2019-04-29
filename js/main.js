@@ -24,6 +24,7 @@ $(document).ready(function () {
         } else {
             $(".filter").not("."+value).hide();
             $(".filter").filter("."+value).show();
+            $(".filter").addClass('wow', 'fadeInRight');
         }
         $(this).addClass("p-active").siblings().removeClass("p-active");
     });
